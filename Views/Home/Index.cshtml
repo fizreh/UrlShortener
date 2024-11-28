@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model string
+
+<h1>URL Shortener</h1>
+<form method="post" action="/Home/Create">
+    <label for="originalUrl">Enter a URL to shorten:</label>
+    <input type="text" id="originalUrl" name="originalUrl" required />
+    <button type="submit">Shorten</button>
+</form>
+
+@if (ViewData["ShortenedUrl"] != null)
+{
+    <p>Shortened URL: <a href="@ViewData["ShortenedUrl"]">@ViewData["ShortenedUrl"]</a></p>
+}

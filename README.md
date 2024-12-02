@@ -13,7 +13,7 @@ Project Structure
 Controller:
 HomeController.cs: Contains the main logic for generating short codes and handling redirection.
 * It contains 2 main functions:  
-Create(Http Post): It creates 5 letter long string (url shortener) and save it along original url in sqLite Db after checking if we have any original address to shorten. 
+Create(Http Post): It creates 5 letter long clean string (url shortener) and save it along original url in sqLite Db after checking if we have any original address to shorten. 
 RedirectToOriginal(Http Get) : It brings the original Url from Db and redirects the shortened Url to the original one.
 * It also consists of a function to check whether our input is being saved in the DB.
 DebugUrls(Http Get)  : Its checks the saved entries in the Database that are made.  

@@ -8,10 +8,10 @@ namespace UrlShortener.Models
         public int Id { get; set; }
 
         [Required]
-        public string? OriginalUrl { get; set; }
+        public string OriginalUrl { get; set; }
 
         [Required]
-        public string? ShortCode { get; set; }
+        public string ShortCode { get; set; }
 
     }
 }

@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Cryptography;
@@ -24,23 +25,24 @@ namespace UrlShortener.Controllers
         [HttpPost]
         public IActionResult Create(string originalUrl)
         {
-            if (string.IsNullOrEmpty(originalUrl))
+            if (string.IsNullOrWhiteSpace(originalUrl))
             {
-                return BadRequest("URL cannot be empty.");
+                ModelState.AddModelError("", "URL cannot be empty.");
+                return View("Index");
             }
 
             var shortCode = GenerateShortCode();
-
             var shortenedUrl = new ShortenedUrl
             {
-                OriginalUrl = originalUrl,
-                ShortCode = shortCode
+                ShortCode = shortCode,
+                OriginalUrl = originalUrl
             };
 
             _context.ShortenedUrls.Add(shortenedUrl);
             _context.SaveChanges();
 
-            ViewData["ShortenedUrl"] = $"www.focusmr.eu/{shortCode}";
+           // ViewData["ShortenedUrl"] = $"www.focusmr.de/{shortCode}";
+            ViewData["ShortenedUrl"] = $"https://localhost:7298/{shortCode}";
             return View("Index");
         }
 
@@ -52,15 +54,32 @@ namespace UrlShortener.Controllers
                 return BadRequest("Invalid short code.");
             }
 
-            // Look up the original URL in the database 
+            // Fetch the original URL from the database
             var url = _context.ShortenedUrls.FirstOrDefault(u => u.ShortCode == shortCode);
+
             if (url == null)
             {
                 return NotFound("Shortened URL not found.");
             }
 
+            // Redirect to the original URL
             return Redirect(url.OriginalUrl);
         }
+
+
+       // Temporary Code to see the Database Entries.
+        [HttpGet("/debug/urls")]
+        public IActionResult DebugUrls()
+        {
+            var urls = _context.ShortenedUrls.ToList();
+            foreach (var url in urls)
+            {
+                Console.WriteLine($"ShortCode: {url.ShortCode}, OriginalUrl: {url.OriginalUrl}");
+            }
+
+            return Ok(urls);
+        }
+
 
         private string GenerateShortCode()
         {
@@ -74,5 +93,7 @@ namespace UrlShortener.Controllers
                 .Replace("=", ""); // Remove padding if any
             return base64String.Length >= 5 ? base64String.Substring(0, 5) : base64String.PadRight(5, 'x');
         }
+
+
     }
 }

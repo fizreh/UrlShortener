@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\data\\urlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:data\\urlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\models\\shortenedurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:models\\shortenedurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|c:\\users\\farhan\\documents\\faiza\\projects\\focus_project_urlshortner\\urlshortener\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D2A1CE-DBAA-4693-A438-AC7D4ED6307B}|UrlShortener.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,26 +52,27 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T18:47:07.497Z"
+              "WhenOpened": "2024-11-27T18:47:07.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAnwEIAAAAMAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAACsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T18:44:25.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -79,44 +80,46 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-27T18:42:57.76Z"
+              "WhenOpened": "2024-11-27T18:42:57.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T18:26:46.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShortenedUrl.cs",
-              "DocumentMoniker": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Models\\ShortenedUrl.cs",
-              "RelativeDocumentMoniker": "Models\\ShortenedUrl.cs",
-              "ToolTip": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Models\\ShortenedUrl.cs",
-              "RelativeToolTip": "Models\\ShortenedUrl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:18:00.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UrlContext.cs",
               "DocumentMoniker": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Data\\UrlContext.cs",
               "RelativeDocumentMoniker": "Data\\UrlContext.cs",
               "ToolTip": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Data\\UrlContext.cs",
               "RelativeToolTip": "Data\\UrlContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:15:23.12Z"
+              "WhenOpened": "2024-11-27T18:15:23.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Farhan\\Documents\\Faiza\\Projects\\Focus_Project_UrlShortner\\UrlShortener\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:22:33.097Z"
             }
           ]
         }

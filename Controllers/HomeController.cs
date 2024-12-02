@@ -41,8 +41,7 @@ namespace UrlShortener.Controllers
             _context.ShortenedUrls.Add(shortenedUrl);
             _context.SaveChanges();
 
-           // ViewData["ShortenedUrl"] = $"www.focusmr.de/{shortCode}";
-            ViewData["ShortenedUrl"] = $"https://localhost:7298/{shortCode}";
+           ViewData["ShortenedUrl"] = $"http://www.focusmr.eu/{shortCode}";
             return View("Index");
         }
 

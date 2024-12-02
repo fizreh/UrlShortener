@@ -42,7 +42,7 @@ app.Use(async (context, next) =>
 
 app.MapControllerRoute(
     name: "shortURL",
-    pattern: "www.focusmr.de/{shortCode}",
+    pattern: "{shortCode}",
     defaults: new { controller = "Home", action = "RedirectToOriginal" }
     );
 

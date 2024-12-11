@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Clone the repository
+                git branch: 'main', url: 'https://github.com/fizreh/UrlShortener.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Build the project using .NET CLI
+                sh 'dotnet build'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                // Run unit tests
+                sh 'dotnet test'
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                // Publish the application
+                sh 'dotnet publish -c Release -o ./publish'
+            }
+        }
+
+        stage('Archive') {
+            steps {
+                // Archive the published artifacts
+                archiveArtifacts artifacts: 'publish/**', fingerprint: true
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build and deployment succeeded.'
+        }
+        failure {
+            echo 'Build or deployment failed.'
+        }
+    }
+}
